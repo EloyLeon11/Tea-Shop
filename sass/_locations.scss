@@ -1,0 +1,41 @@
+.locations {
+   
+    background-image: url("../src/locations-background.jpg");
+    height: 600px;
+    width: 1500px;
+    margin: 0 auto;
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+
+
+
+    &__container{
+        margin-top: 2em;
+        align-items: center;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    &__title {
+        background-color: transparent;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    &__downtown,
+    &__east,
+    &__oakdale {
+
+        background-color: rgb(0, 0, 0);
+        width: 300px;
+        height: 300px;
+        margin: 0 20px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        opacity: 1;
+    }
+}

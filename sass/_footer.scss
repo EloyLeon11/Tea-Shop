@@ -1,0 +1,9 @@
+.footer{
+    &__title,
+    &__contact,
+    &__number{
+       font-size: 30px;
+        text-align: center; // Aquí se cambió de justify-content a text-align
+       
+    }
+}

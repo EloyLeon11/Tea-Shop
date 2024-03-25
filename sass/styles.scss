@@ -1,0 +1,14 @@
+@use"header";
+@use"main";
+@use"featured";
+@use"locations";
+@use"footer";
+
+
+body{
+    font-family: Helvetica;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    opacity: 0.9;
+}

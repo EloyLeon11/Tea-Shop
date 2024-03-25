@@ -1,0 +1,60 @@
+.header {
+
+    display: flex;
+    justify-content: space-between;
+
+    &__title {
+
+        height: 50px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        
+
+    }
+
+    a{
+        color: white;
+    }
+    ul{
+        list-style: none;
+        list-style-type: none;
+
+        color: white;
+    }
+
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+       
+
+
+        &__list {
+            display: flex;
+            list-style: none;
+            text-decoration: none;
+            margin: 0 50px;   
+            gap: 10px;      
+
+             &__item {
+
+                color: white;
+
+                text-decoration: none;
+                cursor: pointer;
+
+                &:hover {
+                    color: white;
+                }
+
+
+            }
+
+
+
+        }
+
+       
+
+    }
+
+}
